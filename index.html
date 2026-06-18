@@ -200,7 +200,10 @@
   }
   .btn:hover{background:#000;transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.20)}
   .btn:active{transform:translateY(0);box-shadow:0 2px 8px rgba(0,0,0,.18)}
-  .contact .alt{margin-top:26px;font-size:14.5px;color:var(--ink-3)}
+  .contact .alt{margin-top:26px;font-size:14.5px;color:var(--ink-3);
+    display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:4px 10px;line-height:1.6}
+  .contact .alt .nb{white-space:nowrap}
+  .contact .alt .sep{color:var(--ink-3)}
   .contact .alt a{color:var(--ink-2)}
   .contact .alt a:hover{color:var(--accent)}
 
@@ -426,7 +429,11 @@
     <p class="reveal d1">Open to senior SDET and test-architecture roles at teams that take quality seriously.</p>
     <a class="btn reveal d2" href="mailto:kandregula.prudhvi@icloud.com">Get in touch</a>
     <div class="alt reveal d3">
-      <a href="mailto:kandregula.prudhvi@icloud.com">kandregula.prudhvi@icloud.com</a> &nbsp;·&nbsp; +91 84668 37925 &nbsp;·&nbsp; Hyderabad, India
+      <a class="nb" href="mailto:kandregula.prudhvi@icloud.com">kandregula.prudhvi@icloud.com</a>
+      <span class="sep">·</span>
+      <a class="nb" href="tel:+918466837925">+91 84668 37925</a>
+      <span class="sep">·</span>
+      <span class="nb">Hyderabad, India</span>
     </div>
   </div>
 </section>
